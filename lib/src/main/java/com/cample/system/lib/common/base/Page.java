@@ -12,6 +12,7 @@ public class Page {
     private int totalNumber;
     private List<Object> data;
 
+
     public static Page toPage(int currentNumber,int pageSize,List<Object> data){
         Page page=new Page();
         if(data!=null){
