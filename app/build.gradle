@@ -19,5 +19,5 @@ dependencies {
     compile 'org.springframework.boot:spring-boot-starter-web'
 //    compile project(":lib")
 
-    compile  'com.github.2628748861:system_lib_common:1.0.1'
+//    compile  'com.github.2628748861:system_lib_common:1.0.1'
 }
