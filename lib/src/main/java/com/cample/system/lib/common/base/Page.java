@@ -1,5 +1,6 @@
 package com.cample.system.lib.common.base;
 
+
 import lombok.Data;
 
 import java.util.ArrayList;
