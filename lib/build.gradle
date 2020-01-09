@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '2.2.1.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+}
+
+group 'com.cample.system.lib.common'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.alibaba:fastjson:1.2.54'
+    compileOnly 'org.projectlombok:lombok:1.18.2'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
